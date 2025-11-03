@@ -9,7 +9,6 @@
     "lint": "eslint",
     "db:push": "drizzle-kit push --config=drizzle.config.ts",
     "db:generate": "drizzle-kit generate --config=drizzle.config.ts",
-    "vercel:build": "sh -lc 'if [ \"$VERCEL_ENV\" = \"production\" ]; then pnpm db:gen && pnpm db:push; fi && pnpm build'",
     "db:check": "tsx scripts/check-db.ts"
     
   },

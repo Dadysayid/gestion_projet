@@ -1,6 +1,7 @@
 "use client";
 
 import { createAuthClient } from "better-auth/client";
+import { organization } from "better-auth/plugins";
 
 function getBaseURL() {
   if (typeof window !== "undefined") {
@@ -15,6 +16,9 @@ function getBaseURL() {
 
 export const authClient = createAuthClient({
   baseURL: getBaseURL(),
+  plugins: [
+    organization(),
+  ],
 });
 
 export const { signIn, signUp, useSession, signOut } = authClient;

@@ -8,6 +8,27 @@
       "when": 1761657273826,
       "tag": "0000_breezy_stick",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1762000143029,
+      "tag": "0001_square_speed",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1762000312309,
+      "tag": "0002_curvy_rachel_grey",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1762165483577,
+      "tag": "0003_abandoned_amphibian",
+      "breakpoints": true
     }
   ]
 }
